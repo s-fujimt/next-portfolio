@@ -15,6 +15,7 @@ export default function Index() {
     <>
       <Head>
         <title>{MY_NAME} | Data Specialist, Web Developer</title>
+        <link rel="icon" type="image/svg+xml" href="/icon.svg" />
       </Head>
       <Layout>
         <>
