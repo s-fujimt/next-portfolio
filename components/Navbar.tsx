@@ -29,7 +29,7 @@ export default function Navbar(props) {
           (isTop
             ? " py-2 md:py-4 bg-transparent"
             : " bg-white bg-opacity-60 shadow") +
-          (navbarOpen ? " bg-white bg-opacity-60 shadow" : "")
+          (navbarOpen ? " bg-white shadow" : "")
         }
       >
         <div className="container max-w-6xl px-4 mx-auto flex flex-col lg:flex-row items-center justify-between">

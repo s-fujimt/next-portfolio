@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { MY_NAME } from "../lib/constants";
 
 export default function Header() {
@@ -35,9 +36,12 @@ export default function Header() {
         </div>
       </div>
       <div className="absolute -z-2 top-0 left-0 right-0 bottom-0">
-        <img
-          className="opacity-30 rotate-180 grayscale h-full w-full object-cover"
+        <Image
           src="/background.svg"
+          width={500}
+          height={500}
+          alt="bg"
+          className="opacity-30 rotate-180 grayscale h-full w-full object-cover"
         />
       </div>
     </header>

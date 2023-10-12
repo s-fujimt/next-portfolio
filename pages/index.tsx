@@ -108,11 +108,11 @@ export default function Index() {
                   />
                 </div>
               </div>
-
+              {/* https://public.tableau.com/app/profile/sandra.fujimoto/viz/NaturalDisasters_16922387385060/Dashboard */}
               <div className="w-full">
                 <div className="h-56 relative bg-red-600 bg-opacity-30 w-full ease-linear transition-all duration-150 overflow-hidden cursor-pointer">
                   <div className="absolute top-0 left-0 right-0 bottom-0 flex flex-col bg-opacity-50 justify-center items-center text-neutral-900 p-4 text-center font-black">
-                    <h5 className="text-lg font-black">Project names</h5>
+                    <h5 className="text-lg font-black">Natural Disasters</h5>
                     <p className="text-sm font-light">
                       A login page for a social media application.
                     </p>
@@ -156,12 +156,12 @@ export default function Index() {
                     <p>
                       Colab, Git, VS Code, Data Cleaning, Data Transformation
                     </p>
-                    <h5 className="mt-2 font-black">Databases</h5>
-                    <p>MySQL, MongoDB</p>
+                    <h5 className="mt-2 font-black">Data Sources</h5>
+                    <p>MySQL, MongoDB, AirTable, Excel, REST/GraphQL</p>
                     <h5 className="mt-2 font-black">Web Development</h5>
                     <p>
-                      HTML, CSS, JavaScript, React.js, Vue.js, Node.js,
-                      Express.js, PHP
+                      HTML, CSS, JavaScript/TypeScrpt, React.js, Vue.js,
+                      Node.js, Express.js, PHP
                     </p>
                     <h5 className="mt-2 font-black">Operating Systems</h5>
                     <p>Linux (Ubuntu), Windows (10)</p>

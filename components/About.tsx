@@ -34,7 +34,7 @@ export default function About() {
                   <br />
                   <br />
                   <a
-                    href=""
+                    href="https://github.com/s-fujimt/"
                     target="_blank"
                     className="text-neutral-400 hover:text-neutral-400"
                   >
@@ -61,7 +61,7 @@ export default function About() {
                       <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
                     </svg>
                   </a>
-                  <a
+                  {/* <a
                     href=""
                     target="_blank"
                     className="text-neutral-400 hover:text-neutral-400"
@@ -74,7 +74,7 @@ export default function About() {
                     >
                       <path d="M304.2 501.5L158.4 320.3 298.2 185c2.6-2.7 1.7-10.5-5.3-10.5h-69.2c-3.5 0-7 1.8-10.5 5.3L80.9 313.5V7.5q0-7.5-7.5-7.5H21.5Q14 0 14 7.5v497q0 7.5 7.5 7.5h51.9q7.5 0 7.5-7.5v-109l30.8-29.3 110.5 140.6c3 3.5 6.5 5.3 10.5 5.3h66.9q5.25 0 6-3z" />
                     </svg>
-                  </a>
+                  </a> */}
                 </p>
               </blockquote>
             </div>
