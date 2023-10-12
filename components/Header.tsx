@@ -1,4 +1,6 @@
 import Image from "next/image";
+import bg from "../public/background.svg";
+
 import { MY_NAME } from "../lib/constants";
 
 export default function Header() {
@@ -37,7 +39,7 @@ export default function Header() {
       </div>
       <div className="absolute -z-2 top-0 left-0 right-0 bottom-0">
         <Image
-          src="/background.svg"
+          src={bg}
           width={500}
           height={500}
           alt="bg"
